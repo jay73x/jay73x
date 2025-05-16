@@ -1,5 +1,18 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll
+_site/
+.sass-cache/
 .jekyll-metadata
-vendor
+
+# Bundler
+/vendor/
+.bundle/
+
+# dotenv environment variables file
+.env
+
+# Mac and Linux system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
